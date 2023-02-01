@@ -1,0 +1,171 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+header h1 {
+  margin: 0;
+  padding: 5px;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 10px;
+  display: block;
+}
+
+header nav a:hover {
+  background-color: #666;
+}
+
+/* Main */
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#main section {
+  width: 100%;
+  padding: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+#main ul {
+  display: inline-block;
+}
+
+#main #interests {
+  float: left;
+  width: 850px;
+  margin-left: 30px;
+}
+
+#main #skills {
+  float: right;
+  width: 850px;
+  margin-right: 30px;
+}
+
+ 
+#main section h2 {
+  margin: 0;
+}
+
+#main article {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+/* Home */
+
+#photo img {
+  width: 75%;
+  padding: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+  text-align: center;
+}
+
+/* Bio */
+
+
+/* Experience */
+#professional {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+
+}
+
+#academic {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 34px;
+}
+
+/* Portfolio */
+#portfolio {
+  padding: 20px;
+  text-align: center;
+}
+
+#portfolio article {
+  padding: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+#portfolio article h3 {
+  margin: 0;
+}
+
+#portfolio article img {
+  width: 100%;
+  max-width: 480px;
+}
+
+#portfolio article a {
+  display: block;
+  margin-top: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#portfolio article a:hover {
+  background-color: #666;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  #main {
+  flex-direction: column;
+  }
+  
+  #main #interests, #main #skills {
+  float: none;
+  width: 100%;
+  margin: 0;
+  }
+  
+  #main aside {
+  width: 100%;
+  margin-right: 0;
+  margin-bottom: 20px;
+  }
+  }
