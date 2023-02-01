@@ -44,8 +44,8 @@ header nav a:hover {
 #main {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   padding: 20px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
@@ -61,15 +61,11 @@ header nav a:hover {
 }
 
 #main #interests {
-  float: left;
-  width: 850px;
-  margin-left: 30px;
+  flex-grow: 1;
 }
 
 #main #skills {
-  float: right;
-  width: 850px;
-  margin-right: 30px;
+  flex-grow: 1;
 }
 
  
@@ -93,7 +89,7 @@ footer {
 /* Home */
 
 #photo img {
-  width: 75%;
+  height: 400px;
   padding: 20px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   margin-right: 20px;
@@ -102,16 +98,16 @@ footer {
 
 /* Bio */
 
+#main p {
+  max-width: 800px;
+}
 
 /* Experience */
 #professional {
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   padding: 20px;
-
 }
 
 #academic {
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   padding: 34px;
 }
 
